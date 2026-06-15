@@ -1,0 +1,28 @@
+{
+  "scene_id": "synthetic_straight_mca_v0_1",
+  "command": {
+    "x_mm": 0.0,
+    "y_mm": 0.0,
+    "rx_rad": 0.0,
+    "ry_rad": 0.0
+  },
+  "beam_id": "focused_hourglass_v0_1:focus=50.0:waist=1.00",
+  "fidelity_level": 2,
+  "interactions": [
+    {
+      "label_id": 1,
+      "label_name": "left middle cerebral artery",
+      "label_abbreviation": "L-MCA",
+      "depth_min_mm": 47.0,
+      "depth_max_mm": 53.0,
+      "max_coverage_fraction": 1.0,
+      "mean_coverage_fraction": 0.9052571460552034,
+      "hit_sample_count": 591,
+      "quality_flags": [
+        "VOXEL_SAMPLED"
+      ]
+    }
+  ],
+  "debug_samples": "591 samples omitted; use --include-debug to print them",
+  "warnings": []
+}
